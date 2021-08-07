@@ -67,5 +67,8 @@ bld/
 !*.[Cc]ache/
 
 
+# Misc Visual Studio files
+*.vs
+
 # Ignore nuget packages
 packages/**

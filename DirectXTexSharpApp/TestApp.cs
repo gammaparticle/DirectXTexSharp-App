@@ -5,7 +5,7 @@ using DirectXTexSharp;
 
 namespace DirectXTexSharpApp
 {
-    class Client
+    class TestApp
     {
         private byte[] _buffer = new byte[3000000];
         
@@ -39,7 +39,7 @@ namespace DirectXTexSharpApp
         static void Main(string[] args)
         {
             string ddsFilePath = @"D:\CyberPunkAssets\chicken_brown_d.dds";
-            Client TexClient = new();
+            TestApp TexClient = new();
             foreach (int ft in Enum.GetValues(typeof(ESaveFileTypes)))
             {                
                 Console.WriteLine("File type is: {0}", (ESaveFileTypes) ft);
