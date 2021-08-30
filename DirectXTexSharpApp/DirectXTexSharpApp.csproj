@@ -16,9 +16,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Reference Include="DirectXTexSharp">
-      <HintPath>..\DirectXTexSharp\DirectXTexSharp\bin\x64\Release\DirectXTexSharp.dll</HintPath>
-    </Reference>
+    <ProjectReference Include="..\..\..\issue3\DirectXTexSharp\DirectXTexSharp.vcxproj" />
   </ItemGroup>
 
 </Project>
